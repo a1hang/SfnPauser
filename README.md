@@ -186,7 +186,7 @@ aws lambda create-function \
     --function-name SfnPauser \
     --zip-file fileb://sfn-pauser.zip \
     --handler lambda_function.lambda_handler \
-    --runtime python3.9 \
+    --runtime python3.13 \
     --role arn:aws:iam::account:role/lambda-execution-role \
     --environment Variables='{Bucket=your-bucket,Prefix=stepfunctions-tokens/}'
 ```

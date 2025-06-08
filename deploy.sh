@@ -6,7 +6,7 @@ set -e
 
 # 設定
 FUNCTION_NAME="SfnPauser"
-RUNTIME="python3.9"
+RUNTIME="python3.13"
 HANDLER="lambda_function.lambda_handler"
 TIMEOUT=300
 MEMORY_SIZE=128
